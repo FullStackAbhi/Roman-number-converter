@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(4, 19, 87);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 32rem;
+  height: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.container__heading > h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container__checker {
+  font-size: large;
+  font-weight: 200;
+  width: 25rem;
+  height: 10rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 0 5px rgb(90, 159, 26);
+}
+#number {
+  margin-top: 1rem;
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid rgb(90, 159, 26);
+}
+
+#convert-btn {
+  color: white;
+  border-radius: 2rem;
+  background-color: rgb(90, 159, 26);
+  margin: 1.5rem 0;
+  width: 7rem;
+  height: 2rem;
+  font-size: large;
+}
+
+.hide {
+  display: none;
+}
+
+#output {
+  background-color: rgb(43, 91, 11);
+  color: white;
+  position: absolute;
+  width: 60%;
+  bottom: 0;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
